@@ -4,14 +4,14 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the Exercise4 Project.");
+        Console.WriteLine("Hello World! This is the Exercise4 Project. ");
 
         List<int> numbers = new List<int>();
 
         int userNumber = -1;
         while (userNumber != 0)
         {
-            Console.WriteLine("Enter a number or type 0 to quit:");
+            Console.WriteLine("Enter a number or type 0 to quit: ");
 
             string userAnswer = Console.ReadLine();
             userNumber = int.Parse(userAnswer);
@@ -28,10 +28,10 @@ class Program
             sum += number;
         }
 
-        Console.WriteLine($"The total sum is: {sum}");
+        Console.WriteLine($"The total sum is: {sum} ");
 
         float average = ((float)sum) / numbers.Count;
-        Console.WriteLine($"The average is: {average}");
+        Console.WriteLine($"The average is: {average} ");
 
         int max = numbers[0];
 
@@ -42,6 +42,6 @@ class Program
                 max = number;
             }
         }
-        Console.WriteLine($"The max is:{max}");
+        Console.WriteLine($"The max is:{max} ");
     }
 }

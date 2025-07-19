@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the Exercise5 Project.");
+        Console.WriteLine("Hello World! This is the Exercise5 Project. ");
 
         DisplayWelcome();
 
@@ -19,12 +19,12 @@ class Program
 
     static void DisplayWelcome()
     {
-        Console.WriteLine("Hello and welcome!");
+        Console.WriteLine("Hello and welcome! ");
     }
 
     static int PromptUserNumber()
     {
-        Console.WriteLine("Please input a number please!:");
+        Console.WriteLine("Please input a number please!: ");
         int number = int.Parse(Console.ReadLine());
         return number;
     }
@@ -37,12 +37,12 @@ class Program
 
     static void DisplayResult(string name, int square)
     {
-        Console.WriteLine($"{name} , the quare of your number is {square}!");
+        Console.WriteLine($"{name} , the quare of your number is {square}! ");
     }
 
     static string PromptUserName()
     {
-        Console.WriteLine("Please type your name, please!:");
+        Console.WriteLine("Please type your name, please!: ");
         string name = Console.ReadLine();
 
         return name;
